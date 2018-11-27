@@ -1,0 +1,11 @@
+[alias]
+        st = status
+        df = diff
+        aa = add -A .
+        co = checkout
+        cob = checkout -b
+        cm = commit
+        br = branch
+        undo = git reset --soft HEAD^
+        amend = commit --amend
+        oneline = log --pretty=oneline --abbrev-commit --graph --decorate
